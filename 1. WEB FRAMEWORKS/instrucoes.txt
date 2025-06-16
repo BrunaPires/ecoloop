@@ -1,0 +1,28 @@
+Instruções para teste
+========================================================
+
+GET
+No terminal rode:
+
+    python app.py
+
+No navegador acessee:
+
+    http://127.0.0.1:5000/saudacao?nome=Bruna
+
+    ou
+
+    http://localhost:5000/saudacao?nome=Bruna
+
+
+========================================================
+
+POST
+No Postman insira:
+http://localhost:5000/soma com o corpo JSON: 
+
+Body JSON:
+{
+  "num1": 15,
+  "num2": 25
+}
